@@ -1,0 +1,87 @@
+@font-face {
+  font-family: sacramento;
+  src: url(../fonts/Sacramento-Regular.ttf);
+}
+
+@font-face {
+  font-family: opensans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+:root {
+  --cor-tema: #bf55ec;
+}
+
+#banner {
+  text-align: center;
+  font-family: sacramento;
+  font-size: 300%;
+  padding: 30px 0px 10px 0px;
+  background-color: var(--cor-tema);
+  color: white;
+  margin-bottom: 10px;
+}
+
+#conteudo {
+  font-family: opensans;
+}
+
+#busca {
+  text-align: center;
+}
+
+#campoBusca {
+  border-color: var(--cor-tema) !important;
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  background-color: var(--cor-tema) !important;
+  border-color: var(--cor-tema) !important;
+}
+
+.btn-primary img {
+  width: 20px;
+}
+
+.imagem {
+  padding: 5px;
+}
+
+.listaImagens {
+  margin: auto;
+  padding-top: 10px;
+}
+
+.visualizacaoImagem {
+  padding: 10px;
+}
+
+.visualizacaoImagem img {
+  width: 100%;
+}
+
+.downloadImagem {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.downloadImagem a {
+  margin: 5px;
+}
+
+.loading {
+  margin: auto;
+  padding: 10px;
+}
+
+.favorito {
+  text-align: center;
+}
+
+.favorito button {
+  outline: 0;
+  border: none;
+  background: none;
+}
