@@ -56,7 +56,7 @@ class VisualizacaoImagem extends Component {
                             Download
                         </a>
 
-                        <Link to="/pesquisa">
+                        <Link to="/">
                             <span className="btn btn-secondary">
                                 Voltar
                             </span>

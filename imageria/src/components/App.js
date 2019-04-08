@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import {
   BrowserRouter,
   Switch,
-  Route,
-  Redirect
+  Route
 } from 'react-router-dom';
 
 import './App.css';
 import Pesquisa from './Pesquisa';
 import VisualizacaoImagem from './VisualizacaoImagem';
+import NaoEncontrado from './NaoEncontrado';
 
 class App extends Component {
 
@@ -22,11 +22,11 @@ class App extends Component {
         </div>
 
         <div id="conteudo" className="container">
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
-              <Route path="/pesquisa" component={Pesquisa} />
-              <Route path="/visualizacao" component={VisualizacaoImagem} />
-              <Redirect from="**" to="/pesquisa" />
+              <Route exact path="/" component={Pesquisa} />
+              <Route exact path="/visualizacao" component={VisualizacaoImagem} />
+              <Route component={NaoEncontrado} />
             </Switch>
           </BrowserRouter>
         </div>
