@@ -75,6 +75,7 @@ class Pesquisa extends Component {
             <div>
                 <div id="busca">
                     <div className="input-group">
+                        <label htmlFor="consulta">Consulta</label>
                         <input
                             id="campoBusca"
                             name="consulta"

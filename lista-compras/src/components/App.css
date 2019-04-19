@@ -1,0 +1,48 @@
+:root {
+  --cor-principal: #81cfe0;
+  --fonte-decorativa: "montserrat";
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+#banner,
+#menu {
+  font-family: var(--fonte-decorativa);
+  background-color: var(--cor-principal);
+}
+
+#banner {
+  padding: 10px 0px 10px 20px;
+  font-size: 120%;
+}
+
+#conteiner {
+  font-family: "poppins";
+  padding: 10px;
+}
+
+#menu {
+  padding: 5px;
+  font-size: 90%;
+}
+
+#barraBotoes {
+  display: table;
+  width: 100%;
+}
+
+.botaoMenu {
+  display: table-cell;
+}
+
+.botaoMenu img {
+  width: 80px;
+}
