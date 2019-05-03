@@ -30,16 +30,14 @@ class App extends Component {
 
         <div id="menu">
 
-          <div id="barraBotoes">
-            <div className="botaoMenu">
-              <img src={lista} alt="Lista de compras" />
-              <span>Lista</span>
-            </div>
+          <div className="botaoMenu">
+            <img src={lista} alt="Lista de compras" />
+            <span>Lista</span>
+          </div>
 
-            <div className="botaoMenu">
-              <img src={produtos} alt="Cadastrar novo produto" />
-              <span>Produtos</span>
-            </div>
+          <div className="botaoMenu">
+            <img src={produtos} alt="Cadastrar novo produto" />
+            <span>Produtos</span>
           </div>
 
         </div>
